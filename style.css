@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin-top: 200px;
+    background-image: url(https://i.pinimg.com/originals/33/fd/1e/33fd1e11953954a1f84b52de013468d4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.litext
+{
+    font-size: large;
+    color:black ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:red;
+    
+}
+.button
+{
+    padding: 2px;
+    margin: 5px;
+    background-color: chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

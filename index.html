@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="todoText" placeholder="Enter Todo" onfocus="this.style.backgroundColor = 'red'" onblur="this.style.backgroundColor = 'white'"  class="text">
+    <button onclick="submitbtn() " class="button">ADD ITEM</button>
+    <button onclick="deleteAll()" class="button"> DELETE ALL</button>
+    <div id="list" class="litext">
+    <ol>
+
+    </ol>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
